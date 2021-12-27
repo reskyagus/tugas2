@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    width: 100%;    
+    }
+ul{
+    position:fixed;
+    width: 100%;
+    background-color: rgb(37, 141, 238);
+    }
+nav ul li{
+    float: left;
+    padding-left: 25px;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+li a{
+display: block;
+padding: 10px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+nav li a:hover{
+    background-color: rgb(5, 6, 8);
+    color: rgb(255, 255, 255);
+}
+.logo{
+width: 1px;
+height: 1px;
+font-size: 2cm;
+}
+.form1{
+display: block;
+padding-left: 25%;
+height: auto;
+width: 40%;
+float: left;
+}
+.form2{
+padding-right: 1cm;
+padding-bottom: 1cm;
+font-size: 15px;
+height: 20cm;
+width: 20%;
+float: right;
+}
+.judul{
+    font-size: 20px;
+    }
+footer{
+    text-align: center;
+    margin-top: 1cm;
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
